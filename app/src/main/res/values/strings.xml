@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Free Movie</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="downloads">Downloads</string>
+    <string name="show_more">Show more</string>
+    <string name="search">Search for movies &amp; series</string>
+</resources>

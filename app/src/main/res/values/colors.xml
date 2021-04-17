@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="lightBackground">#EFEFEF</color>
+    <color name="darkGray">#555</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blackFont">#303030</color>
+    <color name="whileFont">#E0E0E0</color>
+    <color name="lightGrayFont">#C0C0C0</color>
+    <color name="darkGrayFont">#505050</color>
+    <color name="transparent">#00000000</color>
+    <color name="lightGoldenFont">#9AFFD600</color>
+</resources>

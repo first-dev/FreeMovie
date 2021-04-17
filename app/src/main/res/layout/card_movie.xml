@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/movieCardLayout"
+    android:layout_width="@dimen/movie_card_width"
+    android:layout_height="@dimen/movie_card_height"
+    android:paddingLeft="@dimen/movie_card_margin_half"
+    android:paddingRight="@dimen/movie_card_margin_half">
+    <!--TODO fix "app:cardCornerRadius" compatibility with lowed SDKs-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="@dimen/medium_corner_radius"
+        app:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/movieImage"
+                android:layout_width="@dimen/movie_card_image_width"
+                android:layout_height="@dimen/movie_card_image_height"
+                app:srcCompat="@drawable/loading_image" />
+
+            <View
+                android:id="@+id/movieCardGradient"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/gradient_card_movie" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:padding="7dp">
+                <TextView
+                    android:id="@+id/movieCardTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="....."
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/whileFont"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="10"
+                    android:shadowColor="#000"
+                    android:maxLines="2"
+                    android:lineSpacingExtra="0sp"
+                    android:lineSpacingMultiplier="0.7"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                   <TextView
+                        android:id="@+id/movieCardYear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2002"
+                        android:textSize="10sp"
+                        android:textColor="@color/lightGrayFont"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="10"
+                        android:shadowColor="#000"
+                        android:maxLines = "1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" • "
+                        android:textSize="10sp"
+                        android:textColor="@color/lightGrayFont"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="10"
+                        android:shadowColor="#000"
+                        android:maxLines = "1"/>
+                    <TextView
+                        android:id="@+id/movieCardRating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7.2 ★"
+                        android:textSize="10sp"
+                        android:textColor="@color/lightGrayFont"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="10"
+                        android:shadowColor="#000"
+                        android:maxLines = "1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

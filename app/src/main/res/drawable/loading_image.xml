@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/lightBackground"/>
+            <size android:width="@dimen/movie_card_image_width"
+                android:height="@dimen/movie_card_image_height"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_loading"
+        android:gravity="center"/>
+</layer-list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="movie_card_width">115dp</dimen>
+    <dimen name="movie_card_height">156dp</dimen>
+    <dimen name="movie_card_image_width">105dp</dimen>
+    <dimen name="movie_card_image_height">156dp</dimen>
+    <dimen name="movie_card_margin_half">5dp</dimen>
+    <dimen name="movie_card_margin">10dp</dimen>
+    <dimen name="movie_list_margin">5dp</dimen>
+    <dimen name="movie_list_margin_half">2.5dp</dimen>
+    <dimen name="movie_list_header_padding">10dp</dimen>
+    <dimen name="movie_list_header_text_size">18sp</dimen>
+    <dimen name="movie_list_header_icon_dimensions">24dp</dimen>
+    <dimen name="main_action_bar_size">56dp</dimen>
+    <dimen name="medium_corner_radius">10dp</dimen>
+
+</resources>

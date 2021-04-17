@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/item_home"
+        android:enabled="true"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/navigation_downloads"
+        android:icon="@drawable/item_downloads"
+        android:enabled="true"
+        android:title="@string/downloads" />
+
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@drawable/item_favorites"
+        android:enabled="true"
+        android:title="@string/favorites" />
+</menu>
